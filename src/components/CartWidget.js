@@ -1,7 +1,7 @@
 function CartWidget({icono, notificacion}){
     return(
         <div>
-            <h1>{icono}</h1>
+            <img src={icono}/>
             <h3>{notificacion}</h3>
         </div>
     )
